@@ -31,6 +31,8 @@ public class shippingAddress {
         int zipCode = input.nextInt();
         System.out.println("Your zip code is: "+zipCode);
 
+        input.close();
+
         System.out.println("your shipping address is: \n"+name+"\n"+building_number+"\n"+streetName+"\n"+city+"\n"+zipCode);
 
 
