@@ -31,6 +31,19 @@ public class primitiveDataTypes {
 
         System.out.println(s);
 
+        long testing = 99999999999L;
+
+        System.out.println(testing);
+
+
+        char b = '@';
+
+        
+
+        System.out.println(b);
+
+
+
     }
 
 
