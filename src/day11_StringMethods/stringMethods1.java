@@ -59,5 +59,56 @@ but the original string value will still be memorized by the string heap memory.
         p1 = p1.trim();
         System.out.println(p1);
 
+
+        //--------------------------------
+
+
+        String sentence1 = "Today is a bad day to study yet i need to";
+
+        int index1 = sentence1.indexOf("yet");
+
+        System.out.println(index1);
+
+        String sentence2 = "I love java programming";
+
+        int firstA =  sentence2.indexOf('a');
+
+        System.out.println(firstA);
+
+        int secondA = sentence2.indexOf("a ");
+
+        System.out.println(secondA);
+
+        String sentence3 = "Java Python JavaScript Cydeo Python";
+
+        int a1 = sentence3.indexOf('a');
+
+        System.out.println(a1);
+
+        int a2 =  sentence3.indexOf("va");
+
+        System.out.println(a2);
+
+        int a3 = sentence3.indexOf("Python");
+        System.out.println(a3);
+
+        // ----------------------------------------------------------------------
+
+
+        String w = "java";
+
+        System.out.println(w.indexOf('a') );
+        System.out.println(w.lastIndexOf('a'));
+
+        String w2 = "Java Python JavaScript Cydeo Python";
+
+        System.out.println( w2.lastIndexOf('a'));
+        System.out.println( w2.lastIndexOf('o'));
+        System.out.println( w2.replaceFirst("Java", "Warcraft"));
+
+
+
+
+
     }
 }
