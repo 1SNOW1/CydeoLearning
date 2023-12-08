@@ -1,11 +1,22 @@
 package day13_customMethods;
 
+import java.util.Scanner;
+
 public class customMethods3 {
 
     public static void main(String[] args) {
 
-        calculate(200,5,'/');
+        //calculate(200,5,'/');
 
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter two numbers and a operator: ");
+        double n1 = input.nextDouble();
+        double n2 = input.nextDouble();
+
+        char operator = input.next().charAt(0);
+
+        calculate(n1,n2,operator);
     }
 
 
