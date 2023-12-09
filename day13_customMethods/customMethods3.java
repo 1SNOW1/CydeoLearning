@@ -11,7 +11,7 @@ public class customMethods3 {
     public static void calculate(double num1, double num2, double result, char mathOperator){
 
 
-        double result = 0;
+
 
         switch (mathOperator){
 
