@@ -18,7 +18,7 @@ public class cydeoLogin {
             System.out.println("You have successfully logged in!");
         }else {
 
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 3 ; i++) {
                 System.err.println("Incorrect username or password, please try again");
                 System.out.println("Enter your username: ");
                 username = input.nextLine();
