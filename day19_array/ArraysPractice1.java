@@ -20,6 +20,15 @@ public class ArraysPractice1 {
         //what if I want to display the names in reverse order, meaning from last to first one in myGroup
         for (int i = myGroup.length-1; i >= 0 ; i--) {
             System.out.println(myGroup[i]);
+        }
+
+
+        System.out.println("---------------------------------------");
+
+
+        int[] numbers = new int[100];
+        int allNumbers = 0;
+        for (int i = 0; i < myGroup.length; i++) {
             
         }
     }
