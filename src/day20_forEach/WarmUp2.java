@@ -45,6 +45,12 @@ public class WarmUp2 {
         char[] c3 = ArraysUtility.merge(c1, c2);
         System.out.println(Arrays.toString(c3));
 
+        System.out.println("------------------------------------");
+
+        String[] s1 = {"Java", "Baba", "Anam", "Gurbaaan"};
+        String[] s2 = {"Python", "Gözumun", "Cicaaa", "Gurbaaann"};
+        String[] s3 = ArraysUtility.merge(s1, s2);
+        System.out.println(Arrays.toString(s3));
 
 
     }
