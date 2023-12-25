@@ -1,5 +1,7 @@
 package day20_forEach;
 
+import Utilities.ArraysUtility;
+
 import java.util.Arrays;
 
 public class Reverse {
@@ -16,5 +18,25 @@ public class Reverse {
         }
 
         System.out.println(Arrays.toString(reverse));
+
+
+        System.out.println("-------------------------------------");
+
+        int[] nums = {100,200,300,400,500};
+        nums = ArraysUtility.reverse(nums);
+
+        System.out.println(Arrays.toString(nums));
+
+        System.out.println("---------------------------------------");
+
+        double[] a1 = {1.6,1.7,1.8,6.5,8.8};
+        a1 = ArraysUtility.reverse(a1);
+
+        System.out.println(Arrays.toString(a1));
+
+
+
+
     }
+
 }
