@@ -2,6 +2,7 @@ package Utilities;
 
 public class ArraysUtility {
 
+    //merge
     public static int[] merge(int[] arr1, int[] arr2){
 
         int[] arr3 = new int[arr1.length + arr2.length];
@@ -44,7 +45,6 @@ public class ArraysUtility {
         return arr3;
     }
 
-
     public static String[] merge(String[] arr1, String[] arr2){
 
         String[] arr3 = new String[arr1.length + arr2.length];
@@ -59,6 +59,7 @@ public class ArraysUtility {
         return arr3;
     }
 
+    //reverse
     public static int[] reverse(int[] array){
 
         int[] reverse = new int[array.length];
