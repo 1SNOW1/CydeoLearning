@@ -62,12 +62,11 @@ public class MultiDimensionalArrayPractice {
 
         for (String[][] containerOfAllClass : containerOfAllClasses) {
             for (String[] ofAllClass : containerOfAllClass) {
-                for (int i = ofAllClass.length-1; i >= 0; i--) {
+                for (int i = ofAllClass.length - 1; i >= 0; i--) {
                     System.out.println(ofAllClass[i]);
                 }
             }
         }
-
 
 
     }
