@@ -42,5 +42,33 @@ public class MultiDimensionalArrayPractice {
         //deepToString method is used to display any array above 1D, meaning it can display every dimension in an array including 1D arrays
         System.out.println(Arrays.deepToString(class1A));
 
+
+        System.out.println("--------------------------------------------------------------");
+
+
+        String[][][] containerOfAllClasses = {allClasses};
+        System.out.println(Arrays.deepToString(containerOfAllClasses));
+
+        for (String[][] containerOfAllClass : containerOfAllClasses) {
+            for (String[] ofAllClass : containerOfAllClass) {
+                for (String allClass : ofAllClass) {
+                    System.out.println(allClass);
+                }
+            }
+        }
+
+        System.out.println("----------------------------------------------------------------");
+
+
+        for (String[][] containerOfAllClass : containerOfAllClasses) {
+            for (String[] ofAllClass : containerOfAllClass) {
+                for (int i = ofAllClass.length-1; i >= 0; i--) {
+                    System.out.println(ofAllClass[i]);
+                }
+            }
+        }
+
+
+
     }
 }
