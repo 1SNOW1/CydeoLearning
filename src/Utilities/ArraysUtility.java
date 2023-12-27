@@ -172,17 +172,13 @@ public class ArraysUtility {
 
     //Remove
 
-    public static int[] remove(int[] array, int index){
-
-
-    }
+    //public static int[] remove(int[] array, int index)
 
 
 
     //RemoveDuplicates
-    public static int[] removeDup(int[] array){
 
-    }
+   // public static int[] removeDup(int[] array)
 
 
 
