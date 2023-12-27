@@ -143,4 +143,47 @@ public class ArraysUtility {
         return false; //element not found, return false
     }
 
+    public static boolean contains(double[] array, double element) {
+        for (double value : array) {
+            if (value == element) {
+                return true; //element found, return true
+            }
+        }
+        return false; //element not found, return false
+    }
+
+    public static boolean contains(String[] array, String element) {
+        for (String value : array) {
+            if (value.equals(element)) {
+                return true; //element found, return true
+            }
+        }
+        return false; //element not found, return false
+    }
+
+    public static boolean contains(char[] array, char element) {
+        for (char value : array) {
+            if (value == element) {
+                return true; //element found, return true
+            }
+        }
+        return false; //element not found, return false
+    }
+
+    //Remove
+
+    public static int[] remove(int[] array, int index){
+
+
+    }
+
+
+
+    //RemoveDuplicates
+    public static int[] removeDup(int[] array){
+
+    }
+
+
+
 }
