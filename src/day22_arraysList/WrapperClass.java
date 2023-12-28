@@ -28,6 +28,20 @@ public class WrapperClass {
         Double d2 = Double.valueOf(s);
         System.out.println(d2);
 
+        System.out.println("------------------------------------------------------");
+
+
+        String x = "false";
+
+        boolean r1 = Boolean.parseBoolean(x); //gives me primitive boolean
+
+        Boolean r2 = Boolean.valueOf(x); //gives me the wrapper class object
+
+        System.out.println(r1);
+        System.out.println(r2);
+
+
+
 
 
 
