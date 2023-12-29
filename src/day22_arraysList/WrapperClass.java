@@ -1,4 +1,4 @@
-package src.day22_arraysList;
+package day22_arraysList;
 
 public class WrapperClass {
 
@@ -40,6 +40,40 @@ public class WrapperClass {
         System.out.println(r1);
         System.out.println(r2);
 
+        System.out.println("----------------------------------------------------");
+
+
+        char ch = '?';
+        boolean isDigit = Character.isDigit(ch);
+        boolean isLetter = Character.isLetter(ch);
+        boolean isLowerCaseLetter = Character.isLowerCase(ch);
+        boolean isUpperCaseLetter = Character.isUpperCase(ch);
+        boolean isSpecialCharacter = !Character.isLetterOrDigit(ch);
+
+
+        System.out.println(isDigit);
+        System.out.println(isLetter);
+        System.out.println(isLowerCaseLetter);
+        System.out.println(isUpperCaseLetter);
+        System.out.println(isSpecialCharacter);
+
+        System.out.println("----------------------------------------------------");
+
+        //here im trying to find the sum of all the digits in the String
+        String string = "a1b2c3d4e5";
+
+        int sum = 0;
+
+        for (char each : string.toCharArray()) {
+            if (Character.isDigit(each)){
+                sum += Integer.parseInt(""+ each);
+
+
+
+            }
+        }
+
+        System.out.println("sum = " + sum);
 
 
 
