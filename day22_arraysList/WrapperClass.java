@@ -1,4 +1,4 @@
-package src.day22_arraysList;
+package day22_arraysList;
 
 public class WrapperClass {
 
