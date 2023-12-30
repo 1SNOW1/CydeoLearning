@@ -70,7 +70,11 @@ public class ArrayListMethods {
 
         System.out.println(names.lastIndexOf("Sumeye"));
 
+        boolean hasMuhtar = names.contains("Muhtar");
+        boolean hasAli = names.contains("Ali");
 
+        System.out.println("hasMuhtar = " + hasMuhtar);
+        System.out.println("hasAli = " + hasAli);
 
 
 
