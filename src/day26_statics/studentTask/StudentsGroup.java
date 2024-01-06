@@ -2,7 +2,7 @@ package day26_statics.studentTask;
 
 import java.util.ArrayList;
 
-public class StudentsGroup {
+public class StudentsGroup { //studentGroup has a student
 
 
     public String name;
@@ -13,7 +13,7 @@ public class StudentsGroup {
     public StudentsGroup(String name, int groupId) {
         this.name = name;
         this.groupId = groupId;
-        students = new ArrayList<>();
+        //students = new ArrayList<>();
 
     }
 
