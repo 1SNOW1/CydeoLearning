@@ -33,5 +33,12 @@ public class StudentsGroup {
         students.removeIf( p -> p.id == id );
     } //this method takes the student id and then removes the student object with the specified id from the arraylist of students
 
-
+    @Override
+    public String toString() {
+        return "StudentsGroup{" +
+                "name='" + name + '\'' +
+                ", groupId=" + groupId +
+                ", number of students=" + students.size() +
+                '}';
+    }
 }
