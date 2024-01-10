@@ -1,6 +1,7 @@
 package day26_statics.studentTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class StudentsGroup { //studentGroup has a student
 
@@ -21,6 +22,14 @@ public class StudentsGroup { //studentGroup has a student
     public void addStudent(Student student) {
         students.add(student);
     }
+
+    //adds an array of students
+    public void addStudent(Student[] students){
+        this.students.addAll(Arrays.asList(students));
+
+    }
+
+
 
     //another way of adding students to the arraylist of students
     public void addStudent(String name, int age, char gender, int id) {
