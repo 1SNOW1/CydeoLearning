@@ -4,14 +4,14 @@ public abstract class Employee {
 
     //variables
     private String name, gender,jobTitle;
-    private int id;
+    private String id;
     private double salary;
 
     // abstract methods
     public abstract void work();
 
 //getters and setter below
-    public Employee(String name, String gender, String jobTitle, int id, double salary) {
+    public Employee(String name, String gender, String jobTitle, String id, double salary) {
         setName(name);
         setGender(gender);
         setJobTitle(jobTitle);
@@ -43,11 +43,11 @@ public abstract class Employee {
         this.jobTitle = jobTitle;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

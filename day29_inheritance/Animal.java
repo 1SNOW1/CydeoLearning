@@ -14,6 +14,8 @@ public class Animal {
         setGender(gender);
         setAge(age);
     }
+
+    /*
     public Animal(String name, String size, String color, String breed, char gender, int age) {
         setName(name);
         setSize(size);
@@ -22,6 +24,8 @@ public class Animal {
         setGender(gender);
         setAge(age);
     }
+
+     */
 
     @Override
     public String  toString() {
@@ -113,4 +117,6 @@ public class Animal {
         }
         this.age = age;
     }
+
+    public void
 }

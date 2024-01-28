@@ -8,7 +8,7 @@ public class Teacher extends Employee {
     override the methods in the abstract within the subclasses.
      */
 
-    public Teacher(String name, String gender, String jobTitle, int id, double salary) {
+    public Teacher(String name, String gender, String jobTitle, String id, double salary) {
         super(name, gender, jobTitle, id, salary);
     }
 
