@@ -21,7 +21,7 @@ public abstract class Car extends Transportation {
         super.stop();
     }
 
-    protected abstract void drive();
+    public abstract void drive();
 
 
 }

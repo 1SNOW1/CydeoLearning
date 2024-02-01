@@ -27,7 +27,7 @@ public class Audi extends Car implements AutoPark{
     }
 
     @Override
-    protected void drive() {
+    public void drive() {
         System.out.println(getMake() + " can be driven by Enes");
     }
 }

@@ -32,7 +32,7 @@ public class Tesla extends Car implements Electric, AutoPark, AutoPilot{
     }
 
     @Override
-    protected void drive() {
+    public void drive() {
 
     }
 
