@@ -23,5 +23,7 @@ public class CollectionPractice {
         //System.out.println( ((ArrayList) collection2).get(4));
 
         System.out.println( new ArrayList<>(collection2));
+
+
     }
 }
