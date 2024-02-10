@@ -1,5 +1,6 @@
 package day42_maps;
 
+import javax.management.ObjectName;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -59,6 +60,31 @@ public class MapPractice2 {
         listOfEmployees.get(1).replace("Gender", "M");
         System.out.println(listOfEmployees.get(1));
 
+
+        System.out.println("---------------------------------------------------------------------");
+
+        Map<String, Object> car1 = new LinkedHashMap<>();
+        car1.put("Brand", "BMW");
+        car1.put("Model", "X5");
+        car1.put("Year", 2021);
+        car1.put("Color", "Red");
+        car1.put("Price", 45000.5);
+
+        Map<String, Object> car2 = new LinkedHashMap<>();
+        car2.put("Brand", "BMW");
+        car2.put("Model", "X5");
+        car2.put("Year", 2021);
+        car2.put("Color", "Red");
+        car2.put("Price", 45000.5);
+
+        Map<String, Object> car3 = new LinkedHashMap<>();
+
+        Map<String, Object> car4 = new LinkedHashMap<>();
+
+        List<Map<String, Object>> cars = new ArrayList<>();
+        cars.addAll(Arrays.asList(car1,car2,car3,car4));
+
+        System.out.println(cars);
 
 
     }
